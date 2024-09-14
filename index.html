@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <style>
+
+      body{background: rgba(0,0,0,0.5)url(background.jpg);
+           background-repeat:no-repeat;
+          background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: darken;
+
+        }
+
+        #carouselExampleIndicators{margin:40px;}
+
+
+
+
+
+
+        .background{  
+          
+          display:flex;
+          
+          background:rgba(0,0,0,0.5)url(./boots.jpg);
+          background-blend-mode: darken;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          z-index:0;
+
+          
+          
+          
+          
+
+
+            
+            
+            
+            
+
+        }
+
+        .description{z-index: 200;
+        display: flex;
+        margin-top: 10%;margin-bottom: 10%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         color:white;
+        }
+
+         .description p{margin-left: 20%;margin-right: 20%;text-align: justify;}
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="./fcbadrid.svg"
+            width="40px"
+            style="margin-right: 10px"
+          />FC Badrid</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Branches
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ramapuram</a></li>
+                <li><a class="dropdown-item" href="#">Arumbakkam</a></li>
+                <li><a class="dropdown-item" href="#">Porur</a></li>
+
+                <li><a class="dropdown-item" href="#">Alwarpet</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Admissions</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Queries"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="background">
+        
+        <div class="description" >
+            <h2>FC Badrid</h2>
+            <p>is an emerging sports academy, completely emphasising overall player performance and building the genius of both the game and the players. At FC Badrid, we believe in cultivating not just exceptional athletes, but also well-rounded individuals who embody the spirit of teamwork, discipline, and sportsmanship. Our mission is to help every player reach their full potential and to prepare them for success at the highest levels of the game. Join us and become a part of the FC Badrid legacy, where tomorrow's champions are made today.
+
+
+
+
+
+            </p>
+
+
+        </div>
+    </div>
+
+    
+
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom">Why Join Us?</h2>
+  
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('coach.jpg');background-position: center;background-size: cover;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Expert Coaching Staff</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <a href="#" style="color:white">
+                  See more 
+                  <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                </a>
+                
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('facility.jpg');background-position: center;background-size: cover;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">State-of-the-art Facilities</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <a href="#" style="color:white">
+                  See more 
+                  <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                </a>
+                
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('competition.jpg');background-position: center;background-size: cover;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Competitive Opportunities</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <a href="#" style="color:white">
+                  See more 
+                  <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                </a>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <h1 style="text-align: center;">Testimonials</h1>
+    <br>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row featurette">
+              <div class="col-md-7 order-md-2" style="display:flex;flex-direction: column;justify-content: center;">
+                <h2 class="featurette-heading fw-normal lh-1">Kevin DeBruyne, <span class="text-body-secondary">Belgium</span></h2>
+                <p class="lead">I praise the FC Badrid football academy for their focus on technical skills, tactical understanding, and overall player development. Their structured approach and quality coaching have significantly contributed to the rise of talented young players in recent years.</p>
+              </div>
+              <div class="col-md-5 order-md-1">
+                  <div >
+                <img src="./debrooni.jpg" width="100%" style="border-radius: 100%;" >
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row featurette">
+              <div class="col-md-7 order-md-2" style="display:flex;flex-direction: column;justify-content: center;">
+                <h2 class="featurette-heading fw-normal lh-1">Harry Kane,<span class="text-body-secondary"> England</span></h2>
+                <p class="lead">I commend their emphasis on technical skills and their efforts to develop well-rounded players. I believe that the high-quality coaching and structured programs in the academy has played a crucial role in producing top-level Chennai talent.</p>
+              </div>
+              <div class="col-md-5 order-md-1">
+                  <img src="./kane.jpg" width="100%" style="border-radius: 100%;" >
+              </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row featurette">
+              <div class="col-md-7 order-md-2" style="display:flex;flex-direction: column;justify-content: center;">
+                <h2 class="featurette-heading fw-normal lh-1">Badri Prasad,<span class="text-body-secondary"> Player (FC Badrid)</span></h2>
+                <p class="lead">Lot of cool people, community and an ocean of lessons to learn from here. A genuinely inspiring academy, which not only focusses on technical ability, but in overall development. You won't regret it...just dive in, ballers!</p>
+              </div>
+              <div class="col-md-5 order-md-1">
+                  <img src="./prasad.jpg" width="100%" style="border-radius: 100%;" >
+              </div>
+            </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+     
+
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Useful Links</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Locations</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+            </ul>
+          </div>
+    
+          
+    
+          
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our Academy</h5>
+              <p>Updates of what's new and match updates in city from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address" fdprocessedid="estqgu">
+                <button class="btn btn-primary" type="button" fdprocessedid="0zhxa">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top" >
+          <p>© 2024 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
